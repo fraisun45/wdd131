@@ -1,18 +1,22 @@
 
-header {
+.parent {
+    
     display: grid;
-    grid-template-columns: auto auto auto ;
-    grid-template-rows: auto auto;
-    width: 100%;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header {
+    grid-column: 1 / 4;
+    background-color: darkblue;
+    color: white;
 }
 
 h1 {
-    grid-column: 1/4;
-    text-align: center;
-    font-size: 2.5rem;
-    padding: 20px;
-    background-color: aqua;
-    border: 1px solid rgba(red, green, blue, alpha)
+    display: flex;
+    justify-content: center;
 }
 
 .menu {
@@ -47,6 +51,148 @@ nav a:hover {
 	color: yellow;
 }
 
+/*main section*/
+
+.articule-home {
+    max-width: fit-content;
+}
+
+.first-section {
+    float: left;
+    width: 73%;
+    padding: 0 10px;
+}
+
+.card-first {
+    background-color: white;
+    color: black;
+    margin: 25px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: darkblue;
+    color: white;
+    margin: auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.resume {
+    display: flex;
+}
+
+.resume img {
+    float: right;
+    padding: 25px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.second-block {
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.third-block {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 45%;
+}
 
 
 
+
+
+.links {
+    grid-column: 2/3;
+    height: 80%;
+    border: solid #36454f;
+    margin: 0%;
+
+}
+
+.second-section {
+    float: right;
+    width: 23%;
+    padding: 0 10px;
+}
+
+.card-second {
+    background-color: white;
+    color: black;
+    margin: 25px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.car-two {
+    background-color: white;
+    color: black;
+    margin: 25px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+footer {
+    grid-column: 1 / 4;
+    background-color: darkblue;
+    color: white;
+    justify-content: center;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+}
