@@ -10,7 +10,7 @@
 
 header {
     grid-column: 1 / 4;
-    background-color: darkblue;
+    background-color: #0EB29A;
     color: white;
 }
 
@@ -25,7 +25,7 @@ h1 {
 }
 
 nav {
-	background-color: #36454f;
+	background-color: #364857;
 	max-width: auto ;
     grid-column: 1/4;
     background: rgb(45, 44, 44);
@@ -63,6 +63,10 @@ nav a:hover {
     padding: 0 10px;
 }
 
+.card .domi-card  > p{
+    padding: 25px;
+}
+
 .card-first {
     background-color: white;
     color: black;
@@ -75,7 +79,7 @@ h2 {
     display: flex;
     justify-content: center;
     padding: 25px;
-    background-color: darkblue;
+    background-color: #0EB29A;
     color: white;
     margin: auto;
     border-top-left-radius: 25px;
@@ -91,14 +95,7 @@ h2 {
     padding: 25px;
 }
 
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-}
+
 
 img {
     overflow-clip-margin: content-box;
@@ -108,6 +105,7 @@ img {
 h3 {
     display: flex;
     justify-content: center;
+    padding: 5%;
 }
 
 h3 {
@@ -126,19 +124,18 @@ h3 {
 }
 
 .third-block {
-    grid-column: 2/3;
-    grid-row: 3/4;
-    width: 45%;
+    float: left;
+    width: 25%;
+    padding: 15px;
+    padding-bottom: 25px;
 }
-
-
 
 
 
 .links {
     grid-column: 2/3;
     height: 80%;
-    border: solid #36454f;
+    
     margin: 0%;
 
 }
@@ -165,6 +162,10 @@ h3 {
     border-radius: 25px;
 }
 
+.domi-card {
+ padding-bottom: 10%;
+}
+
 
 
 
@@ -187,7 +188,7 @@ li {
 
 footer {
     grid-column: 1 / 4;
-    background-color: darkblue;
+    background-color: #0EB29A;
     color: white;
     justify-content: center;
 }
@@ -195,4 +196,9 @@ footer {
 footer p {
     display: flex;
     justify-content: center;
+    
+}
+
+footer > p {
+    padding: -25px;
 }
