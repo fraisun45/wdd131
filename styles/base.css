@@ -22,6 +22,7 @@ h1 {
 .menu {
     display: grid;
     grid-template-columns: auto auto auto auto;
+
 }
 
 nav {
@@ -40,11 +41,15 @@ nav a {
 	text-align: center;
 	padding: 1rem;
 	text-decoration: none;
+    border: 5px;
+    border: #0EB29A;
     
 }
 
 nav a:hover {
 	text-decoration:overline;
+    border-radius: 45%;
+    background-color: #0EB29A;
 }
 
 .active {
@@ -53,9 +58,7 @@ nav a:hover {
 
 /*main section*/
 
-.articule-home {
-    max-width: fit-content;
-}
+
 
 .first-section {
     float: left;
@@ -99,7 +102,7 @@ h2 {
 
 
 img {
-    overflow-clip-margin: content-box;
+    
     overflow: clip;
 }
 
@@ -131,8 +134,8 @@ hr {
 }
 
 .links {
-    height: 80%;
-    margin: 0%;
+    
+    border-radius: 15%;
 
 }
 
@@ -169,7 +172,7 @@ hr {
 
 li {
     display: list-item;
-    text-align: -webkit-match-parent;
+    
     unicode-bidi: isolate;
 }
 
