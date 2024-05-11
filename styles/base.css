@@ -27,7 +27,7 @@ h1 {
 
 nav {
 	background-color: #364857;
-	max-width: auto ;
+	
     grid-column: 1/4;
     background: rgb(45, 44, 44);
     overflow: hidden;
@@ -96,7 +96,7 @@ h2 {
 .resume img {
     float: right;
     padding: 25px;
-    padding-top: -10px;
+   
 }
 
 
@@ -110,7 +110,7 @@ h3 {
     display: flex;
     justify-content: center;
     padding: 2%;
-    padding-bottom: -5%;
+   
 }
 
 
