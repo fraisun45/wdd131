@@ -12,3 +12,13 @@ if (Number.isNaN(lastVisit) || lastModif > lastVisit) {
     alert("This page has been changed!");
   }
 }
+
+const currentYear = document.querySelector("#lastModified");
+const datetime = new Date();
+
+currentYear.innerHTML = `Today is ${new Intl.DateTimeFormat (
+    "en-US",
+    {
+        dateStyle: "full"
+    }
+).format(datetime)}`;
