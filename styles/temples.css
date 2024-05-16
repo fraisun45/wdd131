@@ -1,0 +1,10 @@
+
+.temple-menu {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto ;
+
+}
+
+.title {
+    grid-column: 1/4;
+}
