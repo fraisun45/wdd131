@@ -8,3 +8,11 @@
 .title {
     grid-column: 1/4;
 }
+
+.temples{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+}
+figure{
+    width: 100%;
+}
